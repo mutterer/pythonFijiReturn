@@ -32,6 +32,7 @@ count = count_objects("blobs.tif")
 - `count_objects.py`: invokes Fiji and parses the count from stdout.
 - `Macro.ijm`: opens the image, counts detected maxima, prints the count, and closes the image.
 - `blobs.tif`: sample image.
+- [`positions/`](positions/readme.md): an additional script and macro that return the detected x/y coordinates as a JSON positions list.
 
 ## How Fiji is called
 
