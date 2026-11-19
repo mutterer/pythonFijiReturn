@@ -2,7 +2,7 @@
 
 Smart microscopy workflows are usually controlled from Python, where image analysis results can guide acquisition decisions. It can be handy to perform the analysis with an existing ImageJ macro, reusing a familiar workflow without rewriting it in Python. This example shows how to call such a macro from Python and bring its result back into the microscopy workflow.
 
-created during the first french RTMFM-GDR Imabio smart microscopy Hackthon, Aussois, 16-20 November 2026.
+Created during the first French RTMFM-GDR Imabio Smart Microscopy Hackathon, Aussois, 16–20 November 2026.
 
 Python runs the analysis macro directly through Fiji's `-batch` option and reads the printed count from standard output. No temporary files, wrapper macros, sockets, or additional Python packages are needed.
 
